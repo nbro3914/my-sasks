@@ -3,8 +3,8 @@ import { createSlice } from '@reduxjs/toolkit';
 const tasksSlice = createSlice({
   name: 'tasks',
   initialState: [
-    { id: 1, title: 'Buy groceries', completed: false },
-    { id: 2, title: 'Walk the dog', completed: true },
+    { id: 1, title: 'going shopping after school', completed: false },
+    { id: 2, title: 'Daily coding training ', completed: true },
   ],
   reducers: {
     addTask: (state, action) => {
